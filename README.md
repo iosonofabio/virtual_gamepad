@@ -25,5 +25,6 @@ sudo chgrp uinput /dev/uinput
 after which you won't need sudo to launch the virtual gamepad anymore.
 
 ### Technicalities
+- The script emulates an Xbox controller.
 - Take a look at the script to bind the keys differently.
 - The repo link above has more keys, haptics, and more. Add them as needed.
