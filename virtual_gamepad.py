@@ -1,15 +1,3 @@
-""" rpi-gpio-jstk.py by Chris Swan 9 Aug 2012
-GPIO Joystick driver for Raspberry Pi for use with 80s 5 switch joysticks
-based on python-uinput/examples/joystick.py by tuomasjjrasanen
-https://github.com/tuomasjjrasanen/python-uinput/blob/master/examples/joystick.py
-requires uinput kernel module (sudo modprobe uinput)
-requires python-uinput (git clone https://github.com/tuomasjjrasanen/python-uinput)
-requires python RPi.GPIO (from http://pypi.python.org/pypi/RPi.GPIO/0.3.1a)
-for detailed usage see http://blog.thestateofme.com/2012/08/10/raspberry-pi-gpio-joystick/
-Changes
-19 Aug 2012 - inputs set to use internal pull ups rather than external 10k resistors
-"""
-
 from collections import defaultdict
 import pynput
 import uinput
