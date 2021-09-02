@@ -13,9 +13,11 @@ Run the script:
 ```bash
 python virtual_gamepad.py
 ```
-Stop the script whenever you don't need the gamepad anymore.
+(run your game or software requiring a gamepad...)
 
-Beware: whoever runs the script must have access to /dev/uinput. You can either run it as root/sudo, or give your user priviledges via a group, e.g.
+After your software is closed again, stop the script if you don't need the gamepad anymore.
+
+**NOTE**: whoever runs the script must have access to /dev/uinput. You can either run it as root/sudo, or give your user priviledges via a group, e.g.
 ```bash
 sudo groupadd uinput
 sudo usermod -aG uinput "$USER"
